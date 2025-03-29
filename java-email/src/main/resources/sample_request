@@ -1,0 +1,23 @@
+api: /without-attachment
+request: {
+             "recipient":"xyz@gmail.com",
+             "msgBody":"Hiií , \n Thanks for trying the api. \n",
+             "subject":"Testing"
+         }
+
+api: /with-attachment
+request: {
+             "recipient":"xyz@gmail.com",
+             "msgBody":"Hiií , \n Thanks for trying the api. \n",
+             "subject":"Testing"
+         }
+
+
+
+
+api: /dynamic
+request: {
+             "recipient":"xyz@gmail.com",
+             "msgBody":"Hiií ${username}, \n Thanks for trying the api. \n",
+             "subject":"Testing"
+         }
